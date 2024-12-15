@@ -62,6 +62,37 @@ python main.py
 - `AgentGEMINI.py`: Contains AI agent for the recommandations task.
 
 ---
+Input and Output Schemas
+
+Input Schema
+```python
+JobSearchInput
+{
+  "job": "string",
+  "location": "string"
+}
+```
+
+Output Schemas
+```python
+JobPosting
+{
+  "title": "string",
+  "company": "string | null",
+  "location": "string | null",
+  "summary": "string | null",
+  "job_link": "string (URL) | null"
+}
+```
+
+```python
+AgentResult
+{
+  "RecommendedCertifications": "string",
+  "RoadMap": "string"
+}
+```
+
 
 ## Output
 
