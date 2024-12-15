@@ -1,12 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 from pydantic import ValidationError
 from typing import List
 import csv
 import time
 from src.schemas import JobPosting, JobSearchInput
+from AgentGEMINI import run_agent_processing, csv_to_json
 
 
 def initialize_driver(chromedriver_path: str) -> webdriver.Chrome:
@@ -16,10 +19,10 @@ def initialize_driver(chromedriver_path: str) -> webdriver.Chrome:
     return driver
 
 
-def scrape_job_cards(driver: webdriver.Chrome, url: str, wait_time: int = 5) -> List[webdriver.remote.webelement.WebElement]:
+def scrape_job_cards(driver: webdriver.Chrome, url: str, wait_time: int = 10) -> List[webdriver.remote.webelement.WebElement]:
     """Navigate to the URL and scrape job cards."""
     driver.get(url)
-    time.sleep(wait_time)  # Give the page some time to load
+    WebDriverWait(driver, wait_time).until(EC.presence_of_all_elements_located((By.CLASS_NAME, "resultContent")))
     return driver.find_elements(By.CLASS_NAME, "resultContent")
 
 
@@ -82,7 +85,8 @@ def main():
         )
         url = job_search_input.build_url()
     except ValidationError as e:
-        print(f"Validation error in job search input: {e}")
+        print("Invalid input. Please ensure all fields are filled correctly.")
+        print(f"Details: {e}")
         return
 
     # Initialize WebDriver
@@ -106,6 +110,9 @@ def main():
         save_to_csv(csv_filename, fieldnames, job_postings)
 
         print(f"Scraping completed. Data saved to {csv_filename}.")
+        print("Generating recommended certificates and roadmaps to improve your job prospects...")
+        csv_to_json(csv_filename, "output/scraping_results.json")
+        run_agent_processing("output/indeed_jobs.csv", "output/agent_results.csv")
     finally:
         # Quit WebDriver
         driver.quit()
