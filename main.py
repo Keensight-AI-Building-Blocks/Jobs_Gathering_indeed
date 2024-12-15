@@ -111,7 +111,7 @@ def main():
 
         print(f"Scraping completed. Data saved to {csv_filename}.")
         print("Generating recommended certificates and roadmaps to improve your job prospects...")
-        csv_to_json(csv_filename, "output/scraping_results.json")
+        csv_to_json(csv_filename, "output/indeed_jobs.json")
         run_agent_processing("output/indeed_jobs.csv", "output/agent_results.csv")
     finally:
         # Quit WebDriver
