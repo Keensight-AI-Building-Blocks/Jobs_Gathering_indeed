@@ -1,8 +1,8 @@
-# Job Scraper for Indeed.com
+# Job Scraper for Indeed.com and Certification, roadmap Recommendation System.
 
 ## Description
 
-This script automates the process of extracting job postings from Indeed.com based on user-defined job title and location. It uses **Selenium** for web scraping and **Pydantic** for input validation and data modeling. The extracted job details are saved into a CSV file for easy analysis.
+This script automates the process of extracting job postings from Indeed.com and Certification, roadmap Recommendation System based on user-defined job title and location. It uses **Selenium** for web scraping and **Pydantic** for input validation and data modeling. The results are saved into a CSV and JSON files for easy analysis.
 
 ---
 
@@ -11,7 +11,7 @@ This script automates the process of extracting job postings from Indeed.com bas
 - **Dynamic URL Generation**: Input job title and location to generate a tailored search query.
 - **Automated Web Scraping**: Uses Selenium to navigate and extract job postings.
 - **Data Validation**: Ensures scraped data adheres to expected formats using Pydantic schemas.
-- **CSV Export**: Saves validated job postings into a CSV file.
+- **CSV Export**: Saves validated results into a CSV and JSON files.
 - **Error Handling**: Handles missing or invalid data gracefully.
 
 ---
@@ -51,7 +51,7 @@ python main.py
    Enter the job location: New York, NY
    ```
 
-5. The script will scrape job postings from Indeed.com based on your inputs and save the results in a CSV file named `indeed_jobs.csv`.
+5. The script will scrape job postings from Indeed.com based on your inputs and give recommended certifications save the results in a CSV and JSON files.
 
 ---
 
@@ -59,29 +59,37 @@ python main.py
 
 - `main.py`: The main script to run the scraper.
 - `schemas.py`: Contains Pydantic schemas for input validation and data modeling.
+- `AgentGEMINI.py`: Contains AI agent for the recommandations task.
 
 ---
 
 ## Output
 
-The script generates a CSV file named `indeed_jobs.csv`, containing the following fields:
+The script generates a CSV and JSON files named `indeed_jobs.csv`,`indeed_jobs.json`, containing the following fields:
 
 - **Title**: The job title.
 - **Company**: The company offering the job.
 - **Location**: The job's location.
 - **Summary**: A brief description of the job.
 - **Job Link**: A direct link to the job posting.
+- 
+The script generates a CSV and JSON files named `agent_results.json.csv`,`agent_results.json.json` containing the following fields:
+
+- **Title**: The job title.
+- **Company**: The company offering the job.
+- **Location**: The job's location.
+- **Summary**: A brief description of the job.
+- **Job Link**: A direct link to the job posting.
+- **RecommendedCertifications**: A direct link to the job posting.
+- **RoadMap**: A direct link to the job posting.
 
 ---
 
 ## Notes
-
+- add .env file that conatins your GEMINI_API_KEY = your_personal_api_key
 - Ensure that the Indeed website's layout has not changed, as this may require updates to the scraping logic.
 - This script is for educational purposes and complies with Indeed's terms of service.
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
 
