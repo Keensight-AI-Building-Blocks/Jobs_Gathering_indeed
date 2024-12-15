@@ -1,137 +1,137 @@
 [
     {
-        "title": "Data Engineer - Spark, Python, AWS",
+        "title": "Java Spark Developer",
+        "company": "Intone Networks",
+        "location": "Hybrid work in Jersey City, NJ",
+        "summary": "Qualifications • Developer with 6 to 10 years of experience to join our dynamic team • The ideal candidate will have extensive experience in Core java Spark in…",
+        "job_link": "https://www.indeed.com/rc/clk?jk=9d3acabe1604d776&bb=GT0_KCBwVU203EdYrA7sb6AwMswUOu20oPJqJnBAXRMbBv0bf0cSc5dVn0j_GhEqgQ2MhjNG3N5RFp8wsDQaAMYYSXPpASopGSi2-HKBYMvavVh6_qKe3BHT6nSf49UL&xkcb=SoA967M34lcxbFyT9B0LbzkdCdPP&fccid=3ed0572c448b2368&vjs=3",
+        "RecommendedCertifications": "\\\"Certified Java Programmer, Spark and Hadoop certifications\\",
+        "RoadMap": "\\\"Focus on strengthening core Java skills, including object-oriented programming, data structures, and algorithms.  Gain hands-on experience with Spark, including data processing, transformations, and optimization techniques. Practice working with big data technologies such as Hadoop.  Build a portfolio of projects demonstrating your Java and Spark expertise.\\"
+    },
+    {
+        "title": "Java Developer with Angular",
+        "company": "Intellibee",
+        "location": "Olympia, WA",
+        "summary": "Java expert: strong spring v4.8 or higher.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=ee47366d4ce29c1e&bb=GT0_KCBwVU203EdYrA7sb6BhKvCmzHhQ38qY3Bw4F7-sobKjVw1qAG_nxZTgpKgD_GGnqgf_BPTkHLkL05B1SrkLAGTRogCDlCswv-Y1RrLYPGzy9GRJL5CnGtXw7Z86&xkcb=SoCJ67M34lcxbFyT9B0KbzkdCdPP&fccid=d99d618a0bcbc8ee&vjs=3",
+        "RecommendedCertifications": "\\\"Spring Professional Certification, Angular Certification\\",
+        "RoadMap": "\\\"Take online courses on Spring and Angular. Practice coding challenges on platforms like HackerRank and LeetCode. Build personal projects to showcase your skills.\\"
+    },
+    {
+        "title": "Java Developer (with JavaNIO)",
+        "company": "NXLog",
+        "location": "Remote",
+        "summary": "We offer versatile solutions to capture high-volume logs from diverse sources, transform log data on the fly, filter, enrich, and route it to other systems to…",
+        "job_link": "https://www.indeed.com/rc/clk?jk=76e95531ab798faf&bb=GT0_KCBwVU203EdYrA7sb36Qq6igsoiIWP83oZnszKX3p3tmbOoCHG8tSv0uX47i1Gd0SxMrv5PmlFU8pJolA0MJ_blmHArytvL-df6jDS-DS5HYWAqvcZ3rxQ67WPqN&xkcb=SoAU67M34lcxbFyT9B0JbzkdCdPP&fccid=930e2807150244a3&vjs=3",
+        "RecommendedCertifications": "\\\"OCPJP (Oracle Certified Professional, Java Programmer)\\",
+        "RoadMap": "\\\"1. Learn Core Java: Focus on object-oriented programming, data structures, algorithms, and exception handling. 2. Master Java NIO: Understand channels, buffers, selectors, and non-blocking I/O operations. 3. Practice with Projects: Build projects that leverage Java NIO for data processing or network communication. 4. Explore Frameworks: Familiarize yourself with Spring, Spring Boot, or other relevant frameworks that are commonly used in enterprise Java development. 5. Learn Concurrency: Develop a strong understanding of multithreading, synchronization, and concurrent programming concepts.\\\" "
+    },
+    {
+        "title": "Java Backend Developer - AWS",
         "company": "FlexIT Inc",
         "location": "Beaverton, OR 97005",
-        "summary": "FlexIT client has an immediate need forData Engineer - Spark, Python,AWS12 months Remote contract in Portland, Oregon.",
-        "job_link": "https://www.indeed.com/rc/clk?jk=cc23febeed3cc8ee&bb=quwfMXwDUbGyRnXc3Nu_AwZm5EJwzwzPIKtvMjL5WVdA3uIanzPg1aBZgF-pF1jiXbVvOTNZd9suT4ZMKWq-rLbUW7rqk_tc9gknRthMc26Wx-xayz7CWBONtsgok_cb&xkcb=SoBi67M34laQOnS4Qh0LbzkdCdPP&fccid=2f3a12745010baf7&vjs=3",
-        "RecommendedCertifications": "\\\"AWS Certified Data Analytics - Specialty, Spark and Hadoop Developer Certification\\",
-        "RoadMap": "\\\"Take online courses on Coursera, edX, or Udemy to learn about Spark, Python, and AWS.  Practice with hands-on projects to build your portfolio.  Consider obtaining relevant certifications to demonstrate your expertise.\\"
+        "summary": "Java Engineer with a focus on BE development.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=d1edd2d30fa0ae9d&bb=GT0_KCBwVU203EdYrA7sb3wHy777S6cFg_7QcpAIi-hRMXHuFQDFES_hkA_JkTLS4tYTdXfOT_IS03TWWWKjiANAnCLZeHqLOhOX70z60NksXaM347-WVVoXPUvrauNv&xkcb=SoCg67M34lcxbFyT9B0IbzkdCdPP&fccid=2f3a12745010baf7&vjs=3",
+        "RecommendedCertifications": "\\\"AWS Certified Developer - Associate\\\", \\\"Oracle Certified Professional, Java SE Programmer\\",
+        "RoadMap": "\\\"Learn core Java concepts, Spring Boot framework, REST APIs, and AWS services like EC2, S3, and Lambda.\\"
     },
     {
-        "title": "Python Developer",
-        "company": "Thoughtquad",
-        "location": "Remote",
-        "summary": "Employment Type: Contract (6 Months).",
-        "job_link": "https://www.indeed.com/rc/clk?jk=5d6fcb1a311da67f&bb=quwfMXwDUbGyRnXc3Nu_A-xcv411ir3chKWA0JpBtRV3Hxv9qE6Ktt48mGTWr5d9-RZHDQTtZLtG4MvYEL4FYhlxm7o4X46L7J8BaP4pg0mUSTWqPWuB4nHGwFlyG25n&xkcb=SoDW67M34laQOnS4Qh0KbzkdCdPP&fccid=6d5363f477f6751c&vjs=3",
-        "RecommendedCertifications": "\\\"AWS Certified Developer - Associate\\\",\\\"CompTIA Security+\\",
-        "RoadMap": "\\\"Learn core Python concepts, including data structures, algorithms, and object-oriented programming. Practice building web applications using frameworks like Django or Flask. Develop experience with databases such as PostgreSQL or MySQL. Familiarize yourself with cloud platforms like AWS or GCP.  Gain experience with version control systems like Git.  Practice testing and debugging your code. Build a portfolio of projects to showcase your skills.\\"
+        "title": "AEM Developer-? Java",
+        "company": "FlexIT Inc",
+        "location": "Beaverton, OR 97005",
+        "summary": "FlexIT client has an immediate need for Adobe AEM Developer Java 12 months Remote contract in Portland, Oregon.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=3af1644c877cc580&bb=GT0_KCBwVU203EdYrA7sbz8FPLfK9MaUBACArRll6HvzUh7KtK3hDaoYb7_DT_ziMZIa35og17XeosMArB3W-IIC7gu16sG4uliuELLJiQAos90ephbfYdvZ3O0B369o&xkcb=SoAu67M34lcxbFyT9B0PbzkdCdPP&fccid=2f3a12745010baf7&vjs=3",
+        "RecommendedCertifications": "\\\"Adobe Certified Expert - AEM 6.5 or higher\\",
+        "RoadMap": "\\\"1. Learn Core Java concepts and AEM fundamentals. 2. Understand AEM architecture and components. 3. Practice hands-on AEM development with Java. 4. Familiarize yourself with AEM's templating engine and content management features. 5. Explore related technologies like Sling, OSGi, and JCR. 6. Build a portfolio of AEM projects to showcase your skills. 7. Stay updated with the latest AEM releases and best practices.\\"
     },
     {
-        "title": "Python Engineer II (REMOTE)",
-        "company": "MultiPlan Inc.",
-        "location": "Remote",
-        "summary": "JOB SUMMARY: Python Engineer formulates and defines specifications for somewhat complex operating software programming applications or modifies/maintains…",
-        "job_link": "https://www.indeed.com/rc/clk?jk=338ab68e36e4febd&bb=quwfMXwDUbGyRnXc3Nu_A_swz3ws_kf9SxbG-TPC2S3_8IHtc2KwouyAPJjJzv-e4l8xaEHDDW-IOzXt8mH1gVm7Dvg7Px9caKA3JJCX9auZahCPYIba6Q%3D%3D&xkcb=SoBL67M34laQOnS4Qh0JbzkdCdPP&fccid=67346e7cd00890bf&vjs=3",
-        "RecommendedCertifications": "\\\"\\\",\\\",RoadMap=\\\"Python programming,Data Structures and Algorithms,Software Design Patterns,Object-Oriented Programming,Agile Methodologies,Version Control (Git),Testing and Debugging\\",
-        "RoadMap": "\\\"\\"
+        "title": "Jr Java Developer",
+        "company": "Veracity Software",
+        "location": "Iselin, NJ 08830",
+        "summary": "Looking for a developer in Java/J2EE with Spring having an extensive experience in development with good working knowledge of AngularJS and Bootstrap.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=8629a7765b00b35d&bb=GT0_KCBwVU203EdYrA7sb7eIvbE3_9PpwTuulXf_GzLmYQttyrW6RrgYfy1FPKglNStIgZ6i8i5ZsssYqoHuZTEW7kRcQSW-bzodKW1FW_huxLb46gO7v2wR_fYJjll1&xkcb=SoCa67M34lcxbFyT9B0ObzkdCdPP&fccid=aca244d0c7282091&vjs=3",
+        "RecommendedCertifications": "\\\"OCPJP (Oracle Certified Professional, Java Programmer)\\\", \\\"OCJEA (Oracle Certified Expert, Java EE Application Developer)\\\", \\\"Spring Professional Certification\\",
+        "RoadMap": "\\\"Focus on core Java concepts, then Spring Framework, and finally AngularJS and Bootstrap.  Practice with projects to build a portfolio.\\"
     },
     {
-        "title": "Entry-Level Python Developer",
-        "company": "Cortrucent Security",
-        "location": "Gibbsboro, NJ",
-        "summary": "We are seeking a talented and enthusiastic Entry-Level Python Developer with a solid understanding of REST principles, Flask, and JavaScript front-end…",
-        "job_link": "https://www.indeed.com/rc/clk?jk=c7943b93ebf42e8f&bb=quwfMXwDUbGyRnXc3Nu_A9UvMUoySElgo4wnvA4rCAWeefC3ugV6XXVuHH-ml7qASgCfwy2scx796OJ73MefqcBRIurE4RJI6mjArh-En3ICsjz1vrhWEnUNwc9cM4G2&xkcb=SoD_67M34laQOnS4Qh0IbzkdCdPP&fccid=36c5c8c6d14fd3ad&vjs=3",
-        "RecommendedCertifications": "\\\"CompTIA Security+ and AWS Certified Cloud Practitioner\\",
-        "RoadMap": "\\\"Learn Python basics, then focus on Flask framework and REST APIs.  Practice with JavaScript front-end technologies like React or Angular.  Familiarize yourself with common security practices and cloud concepts.\\"
+        "title": "Java Developer",
+        "company": "PhasorSoft Group",
+        "location": "Miami, FL",
+        "summary": "An entry level Java developer with Java development experience or similar academic background.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=8a49df861b5677fa&bb=GT0_KCBwVU203EdYrA7sb3t1F1_qUK1BEE9K9Gg8eu13hSy-dShbUr5T9bo35zHjC5mCP6YcJ45LK5Y4l8XQkfIb0VvLsRO6h4tsgQDfe4aMKC_bfBmMTekUICVYTr21&xkcb=SoAH67M34lcxbFyT9B0NbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+        "RecommendedCertifications": "\\\"OCPJP (Oracle Certified Professional, Java Programmer)\\",
+        "RoadMap": "\\\"1. Learn Core Java Fundamentals: Start with basic concepts like data types, operators, control structures, and object-oriented programming (OOP) principles. \\n2. Practice Java Coding: Solve coding challenges on platforms like HackerRank, LeetCode, or Codewars to build your problem-solving skills. \\n3. Explore Java Frameworks: Familiarize yourself with popular Java frameworks such as Spring, Spring Boot, or Hibernate, which are commonly used in enterprise applications. \\n4. Learn about Databases: Understand database concepts, SQL, and how to interact with databases using Java. \\n5. Build Projects: Create personal projects to showcase your Java skills and experience. These could range from simple console applications to more complex web applications.\\n6. Consider further certifications: Explore other certifications such as Oracle Certified Associate, Java SE Programmer, or other vendor-specific certifications that align with your career interests.\\"
     },
     {
-        "title": "PYTHON DEVELOPER",
-        "company": "Pythonwise",
-        "location": "Seattle, WA",
-        "summary": "We are looking for a Python Web Developer responsible for developing, enhancing, modifying, maintaining applications and managing the interchange of data…",
-        "job_link": "https://www.indeed.com/rc/clk?jk=1a20a1c56fb7df73&bb=quwfMXwDUbGyRnXc3Nu_A-de8GjufPqZoTurr1BdUdmf2EDNcI4_1TN7qztnzzEWd4ZI4jJFkTPKIAZqybSyvjz4RX6pNf_x-pTbAdjhrVg_U1dWV-MQyZ2OeUy6-mtU&xkcb=SoBx67M34laQOnS4Qh0PbzkdCdPP&fccid=fe0035950dcdac14&vjs=3",
-        "RecommendedCertifications": "\\\"AWS Certified Developer - Associate\\\",\\\"CompTIA Security+ Certification\\\",\\\"Google Cloud Certified Professional Cloud Architect\\\",\\\"Microsoft Certified: Azure Solutions Architect Expert\\",
-        "RoadMap": "\\\"Learn Python programming basics, including data structures, algorithms, and object-oriented programming. Familiarize yourself with common Python libraries used in web development, such as Django or Flask. Practice building web applications using these frameworks. Learn about databases and how to interact with them using Python. Develop experience with cloud platforms like AWS, Azure, or Google Cloud. Gain experience in software testing and deployment. Practice working with APIs and integrating with external services. Build a portfolio of projects to showcase your skills and experience.\\"
+        "title": "Junior Java Developer",
+        "company": "Conduent State & Local Solutions, Inc",
+        "location": "Germantown, MD 20875",
+        "summary": "These industry leading products support the collection of tolls and the associated operations for a number of the country’s largest tolling agencies.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=d66ecd54459702c8&bb=GT0_KCBwVU203EdYrA7sb9b0FOHxHjWIe23LY8DeBSfN4PnBfu1aLvYL9xgX3GNIWV-AbngqGn5szi8PGs6Kt3vyFP7ViwE8wh5T1-Dh3D3fS1kIvXPzSgJ2ATKqAYIq&xkcb=SoCz67M34lcxbFyT9B0MbzkdCdPP&fccid=88f5eba43de70e76&vjs=3",
+        "RecommendedCertifications": "\\\"Oracle Certified Java Programmer, Spring Professional Certification\\",
+        "RoadMap": "\\\"1. Learn Core Java Fundamentals: Start with the basics of Java, including data types, operators, control structures, and object-oriented programming concepts. 2. Master Java Collections Framework: Understand how to use Java’s built-in collections like ArrayList, LinkedList, HashMap, etc. 3. Learn Spring Framework: Spring is a popular Java framework used for building enterprise applications. Focus on Spring Core, Spring MVC, and Spring Data. 4. Database Interaction: Learn how to interact with databases using JDBC or other ORMs (Object-Relational Mappers). 5. Practice Coding: Solve coding challenges on platforms like LeetCode, HackerRank, or Codewars to improve your problem-solving skills. 6. Build Projects: Create personal projects to demonstrate your Java skills and understanding of Spring. This can include building a simple web application, a REST API, or a small utility program. 7. Learn Testing: Learn how to write unit and integration tests for your Java code. This is important for ensuring the quality of your work. 8. Version Control: Learn how to use Git and GitHub for version control, which is crucial in collaborative development environments. 9. Cloud Technologies (Optional): Consider learning cloud platforms like AWS, Azure, or GCP, as many Java applications are deployed on the cloud. 10. Continuous Learning: Keep learning new technologies and best practices in Java and related areas. Stay updated with the latest trends in the industry.\\"
     },
     {
-        "title": "Software Engineer with Python",
-        "company": "Skillspark AB",
-        "location": "Remote",
-        "summary": "Project length: 6 months with possible extensions.",
-        "job_link": "https://www.indeed.com/rc/clk?jk=172f5864bd3b273d&bb=quwfMXwDUbGyRnXc3Nu_A1NJ_4kmFyAT9b7Jgpc9Nxq7rN5CxJzblkXq3Hbr5szgKXILs7v1kLk0WMlvuh5YshYPEvaF4sVmDKc6He61BC6GJq96og3rAYfzlVHOr85M&xkcb=SoDF67M34laQOnS4Qh0ObzkdCdPP&fccid=1d27cf476b023929&vjs=3",
-        "RecommendedCertifications": "\\\"\\",
-        "RoadMap": "\\\"\\"
+        "title": "Java Developer",
+        "company": "BNS International",
+        "location": "McKinney, TX 75070",
+        "summary": "Duration: Fulltime job, 40 hours per week.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=12a6ad9bb9647e30&bb=GT0_KCBwVU203EdYrA7sb36Qq6igsoiIkK879sHlIVQMiKxkJ_HsyHx_QaUCCPLATMmclH1vfKsIg0r1r0M_n0NS1OZlqySeNwa1BGqkgqOGrbtsnsNi3SwK_tmm0i8i&xkcb=SoBa67M34lcxbFyT9B0DbzkdCdPP&fccid=741c62c80edc3397&vjs=3",
+        "RecommendedCertifications": "\\\"OCPJP, SCJP\\",
+        "RoadMap": "\\\"Learn core java, multithreading, spring boot, microservices, and cloud technologies.\\"
     },
     {
-        "title": "Python Developer",
-        "company": "CEDENT",
-        "location": "Moline, IL",
-        "summary": "NOTE: Video interviews and a skills assessment will be required during this process.",
-        "job_link": "https://www.indeed.com/rc/clk?jk=232f7a1d992a9e03&bb=quwfMXwDUbGyRnXc3Nu_A8tqE7Mx4HiM1jEAv4k00q1AppqA7VOgPtWFNHqPSXZ1qvn1VFrRoEBpIhQciQ_xZzg_vJ9EPG5tviL4UHx1p8N4LunWLNz4gnWOJt-yZVEC&xkcb=SoBY67M34laQOnS4Qh0NbzkdCdPP&fccid=2ecf4575019bf07a&vjs=3",
-        "RecommendedCertifications": "\\\"\\\",\\\"AWS Certified Solutions Architect\\\",\\\"CompTIA Security+\\",
-        "RoadMap": "\\\"Learn core Python concepts such as data structures, algorithms, and object-oriented programming. Practice with projects and participate in coding challenges to build your skills. Consider online courses or bootcamps to accelerate your learning.\\"
+        "title": "Java Backend Developer I",
+        "company": "Enfec",
+        "location": "Bellevue, WA",
+        "summary": "Collaborate with senior developers and stakeholders to understand project requirements and translate them into technical specifications.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=34a433a76da3b99a&bb=GT0_KCBwVU203EdYrA7sb03xwp9gai5oX6SQlKbpyFt5zqQMUXr-2QV9zAgIN2ENKYncYNEvQXMrGDlAXxy9Kddt7gX2Cr8tRMT3fy7lULf0lz5ue4yYqAR50f0iJmPK&xkcb=SoDu67M34lcxbFyT9B0CbzkdCdPP&fccid=363651288a508fd8&vjs=3",
+        "RecommendedCertifications": "\\\"AWS Certified Developer - Associate\\\",\\\"Oracle Certified Professional, Java SE Programmer\\",
+        "RoadMap": "\\\"1. Learn Core Java Fundamentals: Start with the basics of Java syntax, data types, object-oriented programming (OOP) concepts, and exception handling. Resources like online courses (Udemy, Coursera), tutorials, and books can help. 2. Master Java Collections Framework: Understand how to use different data structures like ArrayList, LinkedList, HashMap, etc., efficiently.  3. Database Management: Learn SQL and NoSQL databases (e.g., MySQL, PostgreSQL, MongoDB). Practice writing queries and managing databases. 4. Spring Framework: Spring is widely used in Java backend development. Learn Spring Boot, Spring MVC, and Spring Data for building robust and scalable applications. 5. Microservices Architecture: Gain knowledge of designing and building applications using microservices.  6. Cloud Technologies: Familiarize yourself with cloud platforms like AWS, Azure, or Google Cloud.  7. RESTful APIs: Learn to design, develop, and test RESTful APIs using frameworks like Spring REST.  8. Testing and Debugging: Practice writing unit tests, integration tests, and debugging techniques.  9. Version Control (Git): Learn how to use Git for managing code changes and collaborating with other developers.  10. Continuous Integration and Continuous Deployment (CI/CD): Learn CI/CD processes to automate the building, testing, and deployment of your applications.  11. Build Projects: Hands-on experience is crucial. Build personal projects to solidify your skills and showcase your abilities to potential employers. Consider building a REST API that interacts with a database or a simple microservice.\\"
     },
     {
-        "title": "Python Developer",
-        "company": "Echelon Recruitment",
-        "location": "New York, NY",
-        "summary": "As a Python Developer you will be responsible for developing and maintaining our Python-based backend systems.",
-        "job_link": "https://www.indeed.com/rc/clk?jk=ca62488af39e499f&bb=quwfMXwDUbGyRnXc3Nu_Ax1PRmP7VRBaoto9HeJ96Fm6NHa-KzlUa0Zebx3AWvTMrwAq266_dtValq8jFvZk36bmw-HHZhIl68e-y8f1OPR9rbeYMh-Gx0rfkDDa3uEN&xkcb=SoDs67M34laQOnS4Qh0MbzkdCdPP&fccid=54f1cedd7c900685&vjs=3",
-        "RecommendedCertifications": "\\\"\\",
-        "RoadMap": "\\\"\\"
+        "title": "Java Developer",
+        "company": "Royal Technocrats",
+        "location": "Katy, TX 77494",
+        "summary": "Modify the existing enterprise eligibility java rules to suit new rules and modify the existing code in order not to be impacted with the new rules.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=015c52d63b7605b7&bb=GT0_KCBwVU203EdYrA7sbwhdgyMjFZQeOHvSn-kdYVtHePqTPK155pKhsiEamc6UhRczjsgvk3dq5ZLmn7IYCVTPTSLYOpZvonfwB9CzKz0PKeKsZI-DEef1tJG3OCbD&xkcb=SoBz67M34lcxbFyT9B0BbzkdCdPP&fccid=d9a717f8990d6b80&vjs=3",
+        "RecommendedCertifications": "\\\"Java SE Programmer, Java EE Developer, and other related certifications\\",
+        "RoadMap": "\\\"Focus on mastering Java fundamentals, including object-oriented programming, data structures, and algorithms.  Practice working with enterprise Java frameworks like Spring and Hibernate.  Gain experience with database technologies such as SQL and NoSQL databases.  Develop a strong understanding of software design principles and best practices.  Familiarize yourself with version control systems like Git.  Practice coding challenges and work on personal projects to build your portfolio.\\"
     },
     {
-        "title": "Data Engineer I",
-        "company": "Boston Children's Hospital",
-        "location": "Hybrid work in Boston, MA 02115",
-        "summary": "Working closely with the team to create data processing pipelines and fulfilling requests using a variety of database and analytic technologies.",
-        "job_link": "https://www.indeed.com/rc/clk?jk=5f0e2fc299f2af59&bb=quwfMXwDUbGyRnXc3Nu_A4qxEIyHuNCNFDKd4pGOzvAEQyVulWzCMp0W7kLVG-h9ZchLbT8qdk5uPkzMxucxDLEPjP7jCWIcLQ7wtWOsX6nQK7iD2fMajg%3D%3D&xkcb=SoAF67M34laQOnS4Qh0DbzkdCdPP&fccid=847fa4d5cb464f5a&vjs=3",
-        "RecommendedCertifications": "\\\"AWS Certified Data Analytics - Specialty, Google Cloud Certified Professional Data Engineer\\",
-        "RoadMap": "\\\"Learn SQL, Python, and cloud platforms like AWS or GCP.  Practice data warehousing and ETL processes. Build projects to showcase your skills.\\"
+        "title": "Mid Java Developer",
+        "company": "WEX Inc.",
+        "location": "Remote in Maine",
+        "summary": "You should be an individual who has a passion for writing code, enjoys tackling problems that are difficult to solve, is driven by working as part of integrated…",
+        "job_link": "https://www.indeed.com/rc/clk?jk=58a8fd8f906c58df&bb=GT0_KCBwVU203EdYrA7sb26PwK7azi9i_fLhXOcGeZcu9tSAaLHsJwYVKKccf6Ye514LYpPoEnnHjBZdZ4NnIyRY6Kez8OrJrnHSXAHETdfQ2fiLgxWT8A%3D%3D&xkcb=SoDH67M34lcxbFyT9B0AbzkdCdPP&fccid=c9538b927313f8e0&vjs=3",
+        "RecommendedCertifications": "\\\"Obtain Java SE Programmer certification and any other related certifications\\",
+        "RoadMap": "\\\"Learn Spring Boot, Microservices, and cloud technologies such as AWS or Azure.\\"
     },
     {
-        "title": "Python/AWS Backend Software Contractor",
-        "company": "DENISTEK",
-        "location": "Remote",
-        "summary": "Develop Database Driven Dynamic REST Services using Python, AWS and Strong Problem Solving Skills.",
-        "job_link": "https://www.indeed.com/rc/clk?jk=3cf026416ae26dba&bb=quwfMXwDUbGyRnXc3Nu_A9L0fTVMBDJfV6njgBr5Ivmzg4meiT5_MP7JNUpgqET7VuMHSw9Ryb3zsFynA8pSlmbHxQB8WzZXAQuFRjuGi4jWAjeIQOdXPLbSwpXLN2jB&xkcb=SoCx67M34laQOnS4Qh0CbzkdCdPP&fccid=63842d9084bfe83e&vjs=3",
-        "RecommendedCertifications": "\\\"AWS Certified Developer - Associate\\\", \\\"AWS Certified Solutions Architect - Associate\\\", \\\"Python Institute PCEP - Certified Entry-Level Python Programmer\\",
-        "RoadMap": "\\\"Gain hands-on experience with Python and AWS. Practice building REST APIs and working with databases. Consider online courses, bootcamps, or personal projects to build your skills.\\"
+        "title": "Java Full Stack Developer (contract)",
+        "company": "BNY Mellon",
+        "location": "Pittsburgh, PA 15219 \n(Central Business District area)",
+        "summary": "You will play a crucial role in requirements gathering, BRD/SRD preparation, and have a thorough understanding of the Software Development Life Cycle.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=53a5e59d4544089c&bb=GT0_KCBwVU203EdYrA7sb6SG-N1n5w4K23XqSBeXo48_WePIgCqmU0g0a5lRQ6RUZgTox52fsx02MyiiHbcEEeWaCHk5x23m4eKy5vd2A0_eYiXf-fYo8dX6lmfaozNc&xkcb=SoBJ67M34lcxbFyT9B0HbzkdCdPP&fccid=b4048be2884af072&vjs=3",
+        "RecommendedCertifications": "\\\"AWS Certified Developer - Associate\\\",\\\"Oracle Certified Professional, Java SE Programmer\\",
+        "RoadMap": "\\\"Learn Spring Boot and Spring Cloud for microservices development.  Practice building REST APIs.  Gain experience with various Java frameworks.  Familiarize yourself with Agile development methodologies.  Consider online courses, bootcamps, or self-study resources to accelerate learning.\\"
     },
     {
-        "title": "Data Analyst",
-        "company": "RitePros",
-        "location": "Portland, ME 04101 \n(Downtown area)",
-        "summary": "Data Analyst with Bachelor’s Degree in Computer Science, Bioinformatics, Information Technology, or a combination of education and experience equating to the U…",
-        "job_link": "https://www.indeed.com/rc/clk?jk=97c3e46f03e39c96&bb=quwfMXwDUbGyRnXc3Nu_A_swz3ws_kf91pamOa2ORPb-WuPdnFyGI8nyGfMX9UNvGXLQL9zQHGNo2zkPmF9DEG9OGWFnMsLvR3vEtIRDOaFTjJukqGuFD_x_wGbTCvFU&xkcb=SoAs67M34laQOnS4Qh0BbzkdCdPP&fccid=0562607f79288819&vjs=3",
-        "RecommendedCertifications": "\\\"Google Data Analytics Professional Certificate, AWS Certified Data Analytics - Specialty\\",
-        "RoadMap": "\\\"Take online courses on Coursera or edX, Practice data analysis with projects on Kaggle or GitHub, Build a portfolio to showcase your skills, Network with professionals in the field\\"
+        "title": "JAVA Developer",
+        "company": "ATC",
+        "location": "Urbandale, IA",
+        "summary": "High priority given to soft skills such as self-driven and takes initiative.",
+        "job_link": "https://www.indeed.com/rc/clk?jk=ab2c19b651d038aa&bb=GT0_KCBwVU203EdYrA7sbypwqXYbQgoHzRutQI1jETfsE3bSB4vlt_gXh336uUxsuQazYFFmaXCZl0nkkH4m_UkWjkfxhp9ig860TQ6TCjjLO63S-kK5_fR39dzV-Afh&xkcb=SoD967M34lcxbFyT9B0GbzkdCdPP&fccid=5240abc593b7a436&vjs=3",
+        "RecommendedCertifications": "\\\"OCA/OCP and other JAVA certifications\\",
+        "RoadMap": "\\\"Focus on JAVA fundamentals, Spring Boot, Microservices, and relevant technologies.\\"
     },
     {
-        "title": "Software Developer (Python)",
-        "company": "Techzion IT Solutions",
-        "location": "Sanford, FL",
-        "summary": "Design, develop, and operate web applications focusing on user experience, security, and scalability.",
-        "job_link": "https://www.indeed.com/rc/clk?jk=4a02fad49602497c&bb=quwfMXwDUbGyRnXc3Nu_A1TlJJIgG_8MpwvCXY9RoyGy4SqC250KjFnYSz4Sxn-HqeLjwdFEOKjUDBz2s2fhzSbME5LixrpCdUwb96cwkHA4oeA2_lRaEBl5k8eg4wVg&xkcb=SoCY67M34laQOnS4Qh0AbzkdCdPP&fccid=9b870fc4cb9c4db2&vjs=3",
-        "RecommendedCertifications": "\\\"AWS Certified Developer - Associate, Google Cloud Certified Professional Cloud Architect\\",
-        "RoadMap": "\\\"Learn Python basics, intermediate and advanced topics.  Practice building web applications using frameworks like Django or Flask.  Familiarize yourself with cloud platforms like AWS or GCP. Focus on user experience, security, and scalability best practices.\\"
-    },
-    {
-        "title": "Python/SQL Developer",
-        "company": "IDM People",
-        "location": "Township of Hamilton, NJ 08619",
-        "summary": "Ability to understand and document requirements.",
-        "job_link": "https://www.indeed.com/rc/clk?jk=70ba43168b844072&bb=quwfMXwDUbGyRnXc3Nu_AyOJGwnI_P79Euce4cg29zcbepLdcVpkSODXM9APebf4xlBzg1TBa7T5sQEm7OvupcxZlwAj0SYxeD1yG8m5OXzYVBN93jnIZRBlLBO32xXo&xkcb=SoAW67M34laQOnS4Qh0HbzkdCdPP&fccid=ab9c097b77bf2fc0&vjs=3",
-        "RecommendedCertifications": "\\\"AWS Certified Developer - Associate\\\",\\\"CompTIA Security+ Certification\\\",\\\"Google Cloud Certified Professional Cloud Architect\\\",\\\"Certified Kubernetes Application Developer\\",
-        "RoadMap": "\\\"Learn core programming concepts such as data structures and algorithms. Practice SQL queries and database design. Develop projects to showcase your skills in Python and SQL.  Familiarize yourself with cloud platforms like AWS, Google Cloud, or Azure. Explore containerization technologies like Docker and Kubernetes.\\"
-    },
-    {
-        "title": "Python Developers",
-        "company": "Intone Networks",
-        "location": "Hybrid work in New Jersey",
-        "summary": "",
-        "job_link": "https://www.indeed.com/rc/clk?jk=1b18b91fc233b7dd&bb=quwfMXwDUbGyRnXc3Nu_Axo0oiRAy9mj5_30N_CzrFnrzcaPL_YnAG_3MizPx7ZBIm3Q_7qJ7xrGoqc1qXDLVhyj0ionkgRxrgkMObQkElep9xMhUrN3VSAgdyJxOlR7&xkcb=SoCi67M34laQOnS4Qh0GbzkdCdPP&fccid=3ed0572c448b2368&vjs=3",
-        "RecommendedCertifications": "\\\"\\",
-        "RoadMap": "\\\"\\"
-    },
-    {
-        "title": "Data Analyst",
-        "company": "AccelPad",
-        "location": "Remote in Plano, TX",
-        "summary": "Data visualization, data engineering, and support integration and automation projects using Python/java/PowerBI and REST APIs.",
-        "job_link": "https://www.indeed.com/rc/clk?jk=2b7477e023123de1&bb=quwfMXwDUbGyRnXc3Nu_AzHamWdcyt1-yqCJON-VboIJwGK5mpwhqlHKzcL4w_Uek5TqtpsSKwEDJANY_KrX5oiHsPjzZkWC5_OVfGqpKwKj44Yw2h0gAMTX-KUm1eD3&xkcb=SoA_67M34laQOnS4Qh0FbzkdCdPP&fccid=18b12d793df7ae19&vjs=3",
-        "RecommendedCertifications": "\\\"AWS Certified Data Analytics - Specialty, Google Data Analytics Professional Certificate, Azure Data Engineer Associate\\",
-        "RoadMap": "\\\"Learn data analysis techniques, SQL, Python, data visualization tools (PowerBI), and REST APIs.  Practice with projects and build a portfolio to showcase your skills.\\"
+        "title": "Java Full Stack Developer",
+        "company": "Citi",
+        "location": "Tampa, FL",
+        "summary": "The Applications Development Senior Programmer Analyst is an intermediate level position responsible for participation in the establishment and implementation…",
+        "job_link": "https://www.indeed.com/rc/clk?jk=937d0c7b3d567a45&bb=GT0_KCBwVU203EdYrA7sb-eLYl22IiCnJeNQDxGWwTPWnHKmyLKO_dZhJxZJDF4IDTn0qjuyG6p1Lt3Oo1gKSxga4wpzJ4-IQGSLipSISg3c-ls44VgUiw%3D%3D&xkcb=SoBg67M34lcxbFyT9B0FbzkdCdPP&fccid=5bcd1ef0a7f4fb99&vjs=3",
+        "RecommendedCertifications": "\\\"Java SE Programmer, Java EE Programmer, Spring Professional, and any other related certifications\\",
+        "RoadMap": "\\\"Firstly, focus on strengthening your Java core concepts. Then, delve into Spring Framework, followed by relevant front-end technologies like React or Angular.  Practice building full-stack applications to showcase your skills.  Consider contributing to open-source projects to gain experience and build your portfolio.\\"
     }
 ]
