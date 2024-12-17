@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import os
 from src.schemas import JobPosting, AgentResult
 from pydantic import ValidationError
+import time
 
 
 load_dotenv()
@@ -56,7 +57,29 @@ def save_results_to_csv(output_file: str, results: list):
             writer.writerow(result)
 
 
-def run_agent_processing(input_csv: str = "output/indeed_jobs.csv", output_csv: str = "output/agent_results.csv"):
+def save_combined_results(input_data: dict, results: list, output_file: str = "output/results.json"):
+    """
+    Save both input parameters and processing results in a single JSON file.
+    
+    Args:
+        input_data: Dictionary containing input parameters (job title and location)
+        results: List of processed job postings with agent recommendations
+        output_file: Path to the output JSON file
+    """
+    combined_data = {
+        "input_parameters": input_data,
+        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "results": results
+    }
+    
+    with open(output_file, mode='w', encoding='utf-8') as json_file:
+        json.dump(combined_data, json_file, indent=4, ensure_ascii=False)
+    print(f"Combined results saved to {output_file}")
+
+
+def run_agent_processing(input_csv: str = "output/indeed_jobs.csv", 
+                        output_csv: str = "output/agent_results.csv",
+                        input_params: dict = None):
     job_postings = fetch_job_data(input_csv)
 
     results = []
@@ -65,20 +88,28 @@ def run_agent_processing(input_csv: str = "output/indeed_jobs.csv", output_csv: 
             formatted_input = format_job_posting(job_posting)
             run_result = agent.run_sync(formatted_input)
             result = run_result.data
+            # Clean up the output by removing escaped quotes
+            cleaned_certs = result.RecommendedCertifications.strip('"').replace('\\"', '"')
+            cleaned_roadmap = result.RoadMap.strip('"').replace('\\"', '"')
+            
+            # Convert Pydantic model to dict and handle HttpUrl
+            job_data = job_posting.model_dump()
+            job_data['job_link'] = str(job_data['job_link']) if job_data['job_link'] else None
+            
             results.append({
-                "title": job_posting.title,
-                "company": job_posting.company,
-                "location": job_posting.location,
-                "summary": job_posting.summary,
-                "job_link": job_posting.job_link,
-                "RecommendedCertifications": result.RecommendedCertifications,
-                "RoadMap": result.RoadMap,
+                **job_data,  # Spread the job data
+                "RecommendedCertifications": cleaned_certs,
+                "RoadMap": cleaned_roadmap,
             })
         except Exception as e:
             print(f"Error processing job posting {job_posting.title}: {e}")
 
     save_results_to_csv(output_csv, results)
-    csv_to_json(output_csv, "output/agent_results.json")
+    
+    # Save combined results to results.json
+    if input_params:
+        save_combined_results(input_params, results)
+    
     print(f"Results saved to {output_csv}")
 
 

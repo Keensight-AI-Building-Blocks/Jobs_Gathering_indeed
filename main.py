@@ -9,7 +9,7 @@ from typing import List
 import csv
 import time
 from src.schemas import JobPosting, JobSearchInput
-from AgentGEMINI import run_agent_processing, csv_to_json
+from src.AgentGEMINI import run_agent_processing, csv_to_json
 
 
 def initialize_driver(chromedriver_path: str) -> webdriver.Chrome:
@@ -68,7 +68,7 @@ def save_to_csv(filename: str, fieldnames: List[str], job_data: List[JobPosting]
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
         for job in job_data:
-            writer.writerow(job.dict())
+            writer.writerow(job.model_dump())
 
 
 def main():
@@ -101,20 +101,25 @@ def main():
         for card in job_cards:
             job_details = extract_job_details(card)
             try:
-                job = JobPosting(**job_details)  # Validate data using Pydantic
-                job_postings.append(job)
+                job_posting = JobPosting(**job_details)
+                job_postings.append(job_posting)
             except ValidationError as e:
-                print(f"Validation error: {e}")
+                print(f"Validation error for job posting: {e}")
 
-        # Save data to CSV
+        # Save to CSV
         save_to_csv(csv_filename, fieldnames, job_postings)
+        print(f"Job postings saved to {csv_filename}")
 
-        print(f"Scraping completed. Data saved to {csv_filename}.")
-        print("Generating recommended certificates and roadmaps to improve your job prospects...")
-        csv_to_json(csv_filename, "output/indeed_jobs.json")
-        run_agent_processing("output/indeed_jobs.csv", "output/agent_results.csv")
+        # Process with AI agent
+        input_params = {
+            "job_title": job_search_input.job,
+            "location": job_search_input.location
+        }
+        run_agent_processing(input_csv=csv_filename, input_params=input_params)
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
     finally:
-        # Quit WebDriver
         driver.quit()
 
 
