@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search Assistant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">
+            <i class="fas fa-briefcase me-2"></i>
+            Job Search Assistant
+        </h1>
+        
+        <!-- Search Form -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8">
+                <div class="card search-card">
+                    <div class="card-body">
+                        <form id="searchForm">
+                            <div class="row">
+                                <div class="col-md-5 mb-3">
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <i class="fas fa-search"></i>
+                                        </span>
+                                        <input type="text" class="form-control" id="job" name="job" placeholder="Job Title" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 mb-3">
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </span>
+                                        <input type="text" class="form-control" id="location" name="location" placeholder="Location" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="fas fa-search me-1"></i> Search
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loading" class="text-center d-none mb-4">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-2 text-muted">Searching for jobs and analyzing results...</p>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results" class="d-none">
+            <div class="row">
+                <!-- Job Listings -->
+                <div class="col-12">
+                    <div id="jobListings" class="job-listings"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

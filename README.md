@@ -41,7 +41,8 @@ pip install selenium pydantic
 3. Run the script:
 
 ```bash
-python main.py
+pip install -r requirements.txt
+python3 main.py
 ```
 
 4. When prompted, input the desired job title and location:

@@ -1,0 +1,6 @@
+flask==3.0.0
+selenium==4.16.0
+pydantic>=2.10.0
+python-dotenv==1.0.0
+nest-asyncio==1.5.8
+pydantic-ai-slim>=0.0.12
